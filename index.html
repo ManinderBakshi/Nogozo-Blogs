@@ -23,9 +23,14 @@
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	
     <link rel="icon" href="images/favicon.jpg">
-
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172442704-1"></script>
 <script>
@@ -77,104 +82,486 @@
             </ul>
         </div>
     </nav> 
-    <div class="container" style="margin-top: 100px; margin-bottom: 100px;">
+    <br>
+    <br>
+    <div class="" style="margin-top: 100px; margin-bottom: 100px;">
         <!-- Page Content -->
   <div class="container">
-    <h1 class="my-4" style="color: #f1f1f8;">Welcome to Nogozo Blog Section!</h1>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="images/lifestyle.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="images/ent.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="images/nature.jpeg" alt="Third slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-
     <div class="row">
+      <div class="col-12 pb-5">
+          <div id="featured" class="carousel slide carousel" data-ride="carousel">
+              <!--dots navigate-->
+              <ol class="carousel-indicators top-indicator">
+                  <li data-target="#featured" data-slide-to="0" class="active"></li>
+                  <li data-target="#featured" data-slide-to="1"></li>
+                  <li data-target="#featured" data-slide-to="2"></li>
+                  <li data-target="#featured" data-slide-to="3"></li>
+              </ol>
+              
+              <!--carousel inner-->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                      <!--Start slider news-->
+                      <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+                          <div class="card border-0 rounded-0 text-light overflow zoom">
+                              <div class="position-relative">
+                                  <!--thumbnail img-->
+                                  <div class="ratio_left-cover-1 image-wrapper">
+                                      
+                                          <img class="img-fluid w-100"
+                                               src="images/social.webp"
+                                               alt="Bootstrap news wordpress"
+                                               style="height: 510px;">
+                                      </a>
+                                  </div>
+                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                      <!--title-->
+                                      <a href="">
+                                          <h2 class="h3 post-title text-white my-1">Premium bootstrap 4 news portal magazine template perfect for news site</h2>
+                                      </a>
+                                      <!-- meta title -->
+                                      <div class="news-meta">
+                                          <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                          <span class="news-date">Oct 22, 2019</span>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <!--End slider news-->
+                      
+                      <!--Start box news-->
+                      <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+                          <div class="row">
+                              <!--news box-->
+                              <div class="col-6 pb-1 pt-0 pr-1">
+                                  <div class="card border-0 rounded-0 text-white overflow zoom">
+                                      <div class="position-relative">
+                                          <!--thumbnail img-->
+                                          <div class="ratio_right-cover-2 image-wrapper">
+                                              <a href="">
+                                                  <img class="img-fluid"
+                                                       src="images/neptism.webp"
+                                                       alt="bootstrap 4 wordpress theme"
+                                                       style="height: 250px;">
+                                              </a>
+                                          </div>
+                                          <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                              <!-- category -->
+                                              <a class="p-1 badge badge-primary rounded-0" href="">Lifestyle</a>
+      
+                                              <!--title-->
+                                              <a href=""">
+                                                  <h2 class="h5 text-white my-1">Should you see the Fantastic Beasts sequel?</h2>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              <!--news box-->
+                              <div class="col-6 pb-1 pl-1 pt-0">
+                                  <div class="card border-0 rounded-0 text-white overflow zoom">
+                                      <div class="position-relative">
+                                          <!--thumbnail img-->
+                                          <div class="ratio_right-cover-2 image-wrapper">
+                                              <a href="">
+                                                  <img class="img-fluid"
+                                                       src="images/music.jpg"
+                                                       alt="bootstrap news template magazine"
+                                                       style="height: 250px;">
+                                              </a>
+                                          </div>
+                                          <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                              <!-- category -->
+                                              <a class="p-1 badge badge-primary rounded-0" href="">Motocross</a>
+                                              <!--title-->
+                                              <a href="">
+                                                  <h2 class="h5 text-white my-1">Three myths about Florida elections recount</h2>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              <!--news box-->
+                              <div class="col-6 pb-1 pr-1 pt-1">
+                                  <div class="card border-0 rounded-0 text-white overflow zoom">
+                                      <div class="position-relative">
+                                          <!--thumbnail img-->
+                                          <div class="ratio_right-cover-2 image-wrapper">
+                                              <a href="">
+                                                  <img class="img-fluid"
+                                                       src="images/rest.png"
+                                                       alt="Bootstrap personal blog"
+                                                       style="height: 250px;">
+                                              </a>
+                                          </div>
+                                          <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                              <!-- category -->
+                                              <a class="p-1 badge badge-primary rounded-0" href="">Fitness</a>
+                                              <!--title-->
+                                              <a href="">
+                                                  <h2 class="h5 text-white my-1">Finding Empowerment in Two Wheels and a Helmet</h2>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              <!--news box-->
+                              <div class="col-6 pb-1 pl-1 pt-1">
+                                  <div class="card border-0 rounded-0 text-white overflow zoom">
+                                      <div class="position-relative">
+                                          <!--thumbnail img-->
+                                          <div class="ratio_right-cover-2 image-wrapper">
+                                              <a href="">
+                                                  <img class="img-fluid"
+                                                       src="images/corona.jpg"
+                                                       alt="simple blog bootstrap"
+                                                       style="height: 250px;">
+                                              </a>
+                                          </div>
+                                          <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                              <!-- category -->
+                                              <a class="p-1 badge badge-primary rounded-0" href="">Adventure</a>
+                                              <!--title-->
+                                              <a href="">
+                                                  <h2 class="h5 text-white my-1">Ditch receipts and four other tips to be a shopper</h2>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!--end news box-->
+                          </div>
+                      </div>
+                      <!--End box news-->
+                  </div>
+              </div>
 
-      <!-- Blog Entries Column -->
-      <div class="col-lg-12">
-
-        <h1 class="my-4" style="color: #f1f1f8;">
-          <small>Our Latest Blogs</small>
-        </h1>
-
-        <!-- Blog Post -->
-        <div class="col-lg-12 card mb-4">
-          <img class="card-img-top" src="images/music.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">BEYOND the VOICE!</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+              <div class="carousel-item">
+                      <div class="row">
+                          <!--Start slider news-->
+                          <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+                              <div class="card border-0 rounded-0 text-light overflow zoom">
+                                  <div class="position-relative">
+                                      <!--thumbnail img-->
+                                      <div class="ratio_left-cover-1 image-wrapper">
+                                          <a href="">
+                                              <img class="img-fluid w-100"
+                                                   src="images/ent.jpg"
+                                                   alt="Bootstrap news wordpress"
+                                                   style="height: 510px;">
+                                          </a>
+                                      </div>
+                                      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                          <!--title-->
+                                          <a href="">
+                                              <h2 class="h3 post-title text-white my-1">Premium bootstrap 4 news portal magazine template perfect for news site</h2>
+                                          </a>
+                                          <!-- meta title -->
+                                          <div class="news-meta">
+                                              <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                              <span class="news-date">Oct 22, 2019</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--End slider news-->
+                          
+                          <!--Start box news-->
+                          <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+                              <div class="row">
+                                  <!--news box-->
+                                  <div class="col-6 pb-1 pt-0 pr-1">
+                                      <div class="card border-0 rounded-0 text-white overflow zoom">
+                                          <div class="position-relative">
+                                              <!--thumbnail img-->
+                                              <div class="ratio_right-cover-2 image-wrapper">
+                                                  <a href="">
+                                                      <img class="img-fluid"
+                                                           src="images/cow.jpg"
+                                                           alt="bootstrap 4 wordpress theme"
+                                                           style="height: 250px;">
+                                                  </a>
+                                              </div>
+                                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                  <!-- category -->
+                                                  <a class="p-1 badge badge-primary rounded-0" href="">Lifestyle</a>
+          
+                                                  <!--title-->
+                                                  <a href="">
+                                                      <h2 class="h5 text-white my-1">Should you see the Fantastic Beasts sequel?</h2>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <!--news box-->
+                                  <div class="col-6 pb-1 pl-1 pt-0">
+                                      <div class="card border-0 rounded-0 text-white overflow zoom">
+                                          <div class="position-relative">
+                                              <!--thumbnail img-->
+                                              <div class="ratio_right-cover-2 image-wrapper">
+                                                  <a href="">
+                                                      <img class="img-fluid"
+                                                           src="images/art.jpg"
+                                                           alt="bootstrap news template magazine"
+                                                           style="height: 250px;">
+                                                  </a>
+                                              </div>
+                                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                  <!-- category -->
+                                                  <a class="p-1 badge badge-primary rounded-0" href="">Motocross</a>
+                                                  <!--title-->
+                                                  <a href=>
+                                                      <h2 class="h5 text-white my-1">Three myths about Florida elections recount</h2>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <!--news box-->
+                                  <div class="col-6 pb-1 pr-1 pt-1">
+                                      <div class="card border-0 rounded-0 text-white overflow zoom">
+                                          <div class="position-relative">
+                                              <!--thumbnail img-->
+                                              <div class="ratio_right-cover-2 image-wrapper">
+                                                  <a href="">
+                                                      <img class="img-fluid"
+                                                           src="images/time.jpg"
+                                                           alt="Bootstrap personal blog"
+                                                           style="height: 250px;">
+                                                  </a>
+                                              </div>
+                                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                  <!-- category -->
+                                                  <a class="p-1 badge badge-primary rounded-0" href="">Fitness</a>
+                                                  <!--title-->
+                                                  <a href="">
+                                                      <h2 class="h5 text-white my-1">Finding Empowerment in Two Wheels and a Helmet</h2>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <!--news box-->
+                                  <div class="col-6 pb-1 pl-1 pt-1">
+                                      <div class="card border-0 rounded-0 text-white overflow zoom">
+                                          <div class="position-relative">
+                                              <!--thumbnail img-->
+                                              <div class="ratio_right-cover-2 image-wrapper">
+                                                  <a href="">
+                                                      <img class="img-fluid"
+                                                           src="images/mask.jpg"
+                                                           alt="simple blog bootstrap"
+                                                           style="height: 250px;">
+                                                  </a>
+                                              </div>
+                                              <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                  <!-- category -->
+                                                  <a class="p-1 badge badge-primary rounded-0" href="">Adventure</a>
+                                                  <!--title-->
+                                                  <a href="">
+                                                      <h2 class="h5 text-white my-1">Ditch receipts and four other tips to be a shopper</h2>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!--end news box-->
+                              </div>
+                          </div>
+                          <!--End box news-->
+                      </div>
+                  </div>
+              </div>
+              <!--end carousel inner-->
+              
+              <!--navigation-->
+              <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#featured" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
           </div>
-          <div class="card-footer text-muted">
-            Posted on July 19, 2020 by
-            <a href="#">Person Name</a>
-          </div>
-        </div>
-
-        <!-- Blog Post -->
-        <div class="col-lg-12 card mb-4">
-          <img class="card-img-top" src="images/dark.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Dark and Twisted- Review</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Posted on July 17, 2020 by
-            <a href="#">Person Name</a>
-          </div>
-        </div>
-
-        <!-- Blog Post -->
-        <div class="col-lg-12 card mb-4">
-          <img class="card-img-top" src="images/corona.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">CORONA – COnnectedness, ROutines, and NAivety!</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Posted on July 10, 2020 by
-            <a href="#">Person Name</a>
-          </div>
-        </div>
-
-        <!-- Pagination -->
-        <ul class="pagination justify-content-center mb-4">
-          <li class="page-item">
-            <a class="page-link" href="#">&larr; Older</a>
-          </li>
-          <li class="page-item disabled">
-            <a class="page-link" href="#">Newer &rarr;</a>
-          </li>
-        </ul>
-
       </div>
-
-    </div>
-    <!-- /.row -->
-
   </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="item">
+          <a href="" style="text-decoration: none;" >
+          <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+              <div class="card-body">
+                  <div class="container">
+                    <h4 class="card-title" style="color: black;"><b>
+                     Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                    <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                    <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                    <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                 </div>
+                </div>
+              </div></a> 
+              <br>
+          </div> 
+            
+      
+            <div class="item">
+              <a href="" style="text-decoration: none;" >
+                <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                    <div class="card-body">
+                        <div class="container">
+                      <h4 class="card-title" style="color: black;"><b>
+                        Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                      <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                      <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                      <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                    </div>
+                    </div>
+                  </div></a> <br>
+            </div>
+      
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>   
+                <div class="item">
+                  <a href="" style="text-decoration: none;" >
+                    <div class="card" style="background-color: white; opacity: 80%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+                        <div class="card-body">
+                            <div class="container">
+                          <h4 class="card-title" style="color: black;"><b>
+                            Bechara Dil inevitably in love with ‘Dil Bechara’</b></h4>
+                          <p style= "color: #000; margin-bottom: 10px;"><i class="fas fa-pen-nib"> Snigdhaa Ghai</i> </p>
+                          <p class="card-text" style="color: black;">Two days ago, Disney Hotstar released Sushant Singh Rajuput’s last movie ‘Dil Bechara’ for free for everyone. Since then, the movie has made its way into the lives of thousands of Indians who are watching it as a tribute to the actor.</p>
+                          <p class="card-text" style="color: black;"><small class="text-muted">Date posted: July,26 2020</small></p>
+                        </div>
+                        </div>
+                      </div></a> <br> 
+                </div>            
+        </div>
+      </div>
+    </div>
+    </div>
   <!-- /.container -->
     </div>
     <div class="footer" style="background-color: #1d1b25; color: #f1f1f8;">
@@ -239,9 +626,107 @@
     <script src="js/morphext.min.js"></script>
     <script src="js/validator.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
      <script src="https://kit.fontawesome.com/1d8298542f.js" crossorigin="anonymous"></script>
 
+     <script>
+      // http://www.appelsiini.net/projects/viewport
+  // http://remysharp.com/2009/01/26/element-in-view-event-plugin/
+  // https://github.com/cobbweb/jquery.scrollwatch
+  var WINDOW_WIDTH = window.innerWidth || document.documentElement.clientWidth;
+  var WINDOW_HEIGHT = window.innerHeight || document.documentElement.clientHeight;
+  
+  var ScrollMonitor = function (options) {
+      this.items = [];
+      this.options = {};
+  
+      for (var key in options) {
+          this.options[key] = options[key];
+      }
+  };
+  
+  ScrollMonitor.prototype.add = function (node, options) {
+      var gap = options.gap || 0;
+      this.items.push({
+          node: node,
+          gap: +gap === gap ? [gap, gap, gap, gap] : gap,
+          callbacks: {
+              step: options.step || function (node, distance) {},
+              enter: options.enter || function (node, distance) {},
+              leave: options.leave || function (node, distance) {}
+          }
+      });
+      
+      this.resize();
+  };
+  
+  ScrollMonitor.prototype.resize = function () {
+      WINDOW_WIDTH = window.innerWidth || document.documentElement.clientWidth;
+      WINDOW_HEIGHT = window.innerHeight || document.documentElement.clientHeight;
+  
+      for (var i = 0; i < this.items.length; i++) {
+          var node = this.items[i].node;
+          this.items[i].rect = {
+              top: node.offsetTop,
+              left: node.offsetLeft,
+              width: node.clientWidth,
+              height: node.clientHeight
+          };
+      }
+  };
+  
+  ScrollMonitor.prototype.scroll = function (scrollX, scrollY) {
+  
+      for (var i = 0; i < this.items.length; i++) {
+          var item = this.items[i];
+          var rect = item.rect;
+          var gap = item.gap;
+  
+          var distance = {
+              top: (rect.top + rect.height) - scrollY,
+              left: (rect.left + rect.width) - scrollX,
+              right: rect.left - (WINDOW_WIDTH + scrollX),
+              bottom: rect.top - (WINDOW_HEIGHT + scrollY),
+          };
+  
+          var inView = (distance.right < -gap[1] && distance.left > gap[3] && distance.bottom < -gap[2] && distance.top > gap[0]);
+  
+          if (inView && !item.callbacks.once) {
+              item.callbacks.once = true;
+              item.callbacks.enter.call(this, item.node, distance);
+          }
+  
+          if (!inView && item.callbacks.once) {
+              item.callbacks.once = false;
+              item.callbacks.leave.call(this, item.node, distance);
+          }
+          
+          item.callbacks.step.call(this, item.node, distance);
+      }
+  };
+  
+  var monitor = new ScrollMonitor();
+  var nodeList = document.querySelectorAll('.item');
+  
+  for (var i = 0; i < nodeList.length; i++) {
+      monitor.add(nodeList[i], {
+          gap: 0,
+          enter: function (node, distance) {
+              node.classList.add('in-view');
+          },
+          leave: function (node, distance) {
+              node.classList.remove('in-view');
+          }
+      });
+  }
+  
+  window.onscroll = function () { monitor.scroll(window.pageXOffset, window.pageYOffset); };
+  window.onresize = function () { monitor.resize(); window.onscroll(); };
+  
+  window.onresize();
+  </script>
 
 </body>
 </html>
